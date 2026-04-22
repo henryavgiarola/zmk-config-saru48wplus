@@ -218,10 +218,10 @@
             // -----------------------------------------------------------------------------------------------------------------------------------
 
             bindings = <
-&macro1  &email_macro  &cpf_macro  &none  &none  &none       &none  &none  &none  &none  &none  &none  &bt BT_CLR
-&none    &none         &none       &none  &none  &none       &none  &none  &none  &none  &none  &none  &none
-&none    &none         &none       &none  &none  &cpf_macro  &none  &none  &none  &none  &none  &none  &none
-&none    &none         &none              &none              &none         &none  &none  &none  &none  &none
+&macro1       &email_macro  &cpf_macro  &none  &none  &none       &none  &none  &none  &none  &none  &none  &bt BT_CLR
+&email_macro  &none         &none       &none  &none  &none       &none  &none  &none  &none  &none  &none  &none
+&none         &none         &none       &none  &none  &cpf_macro  &none  &none  &none  &none  &none  &none  &none
+&none         &none         &none              &none              &none         &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP>;
